@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap');
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    float: right;
+    padding: 20px 30px;
+}
+
+nav a {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-right: 0.5em;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav .ProfileImg img {
+    width: 50px;
+    height: auto;
+    margin-top: -20px;
+    right: 20px;
+}
+
+header {
+    position: fixed;
+    color: black;
+    height: 70px;
+    border-bottom: 3px solid #D9CAB3;
+    background-color: white;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.header-logo {
+    float: left;
+    padding: 5px 40px;
+}
+
+.header-logo a {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.Wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.discover {
+    background: #6D9886;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Jumbotron {
+    margin-top: 90px;
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    color: white;
+    background-color: #6D9886;
+    border-bottom: 7px solid #D9CAB3;
+    width: 100%;
+    position: absolute;
+    height: 312px;
+    background: #6D9886;
+}
+
+.Card {
+    z-index: -1;
+    margin-left: 25px;
+    margin-top: 410px;
+    position: relative;
+    color: black;
+    background-color: #6D9886;
+    position: absolute;
+    background: white;
+    font-size: 18px;
+    width: 97%;
+}
+
+nav h1 {
+    margin-left: 50px;
+    font-size: 70px;
+}
+
+nav p {
+    padding: 20px;
+    margin-right: 0px;
+    text-align: justify;
+}
+
+.box .column {
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+    color: white;
+    background-color: #6D9886;
+    font-size: larger;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #D9CAB3;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    margin-top: 750px;
+    position: relative;
+    padding: 0.1px;
+    color: white;
+    background-color: #6D9886;
+    text-align: center;
+    border-top: 20px solid #D9CAB3;
+}
+
+.SocialMedia {
+    width: 15%;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
